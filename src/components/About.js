@@ -15,6 +15,9 @@ export default function About() {
                    and playing sports. 
                </p>
             </div>
+            <div className="d-flex justify-content-center">
+            <img src="./img/disney.jpg"></img>
+            </div>
         </div>
     )
 }

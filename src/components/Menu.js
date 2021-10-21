@@ -23,7 +23,7 @@ export default function Menu() {
                 </div>
             </div>
             <div className="container">
-                <ul className="list-group list-group-horizontal float-end">
+                <ul className="list-group list-group-horizontal d-flex float-end">
                     <li className="list-group-item text-success bg-dark fw-bold">
                         <i class="bi bi-facebook"></i>
                     </li>
