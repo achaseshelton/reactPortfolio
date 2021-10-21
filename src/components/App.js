@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import Menu from "./Menu"
+import About from "./About"
 
 export default class App extends Component {
     constructor(props) {
@@ -10,7 +12,8 @@ export default class App extends Component {
     render() {
         return (
             <>
-              <Menu />  
+              <Menu />
+              <About />  
             </>
         )
     }
