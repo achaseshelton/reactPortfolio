@@ -1,5 +1,5 @@
 import React from 'react'
-import { Row, Col, Container,  } from ""
+import { Row, Col } from "react-bootstrap"
 
 export default function Home() {
     return (
@@ -12,7 +12,7 @@ export default function Home() {
                 Full Stack Web Developer
             </Col>
             <Col className="text-center col-12">
-                <img className="image-fluid" src="./chase.jpg" />
+                <img className="image-fluid" src="./img/chase.jpg" />
             </Col>
             <Col classname="text-center text-primary col-12">
                 See what I've been <a href="https://github.com/achaseshelton">building</a>!
