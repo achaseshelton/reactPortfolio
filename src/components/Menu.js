@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Nav, Button } from 'react-bootstrap'
+import { Nav, Button, NavDropdown } from 'react-bootstrap'
 
 export default function Menu() {
     return (
@@ -16,12 +16,14 @@ export default function Menu() {
                             <Nav.Link as={Link} to="/projects" className="nav-link text-success fw-bold">Portfolio</Nav.Link>
                         </li>
                         <li className="nav-item">
-                            <Nav.Link as={Link} to="/blog" className="nav-link text-success fw-bold">Blog</Nav.Link>
-                        </li>
-                        <li className="nav-item">
                             <Nav.Link as={Link} to="/about" className="nav-link text-success fw-bold">About Me!</Nav.Link>
                         </li>
                     </ul>
+                    <NavDropdown title="Blog" id="basic-nav-dropdown">
+                        <NavDropdown.Item as={Link} to="/onboarding" className="nav-link text-success fw-bold">Onboarding</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="/frontend" className="nav-link text-success fw-bold">Front End</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="/backend" className="nav-link text-success fw-bold">Back End</NavDropdown.Item>
+                    </NavDropdown>
                 </div>
             </div>
             <div className="container">
@@ -43,7 +45,7 @@ export default function Menu() {
                     </li>
                     <li className="list-group-item text-success bg-dark fw-bold">
                         <a href="https://github.com/achaseshelton" target="_blank" className="text-success">
-                        <i class="bi bi-github"></i>
+                            <i class="bi bi-github"></i>
                         </a>
                     </li>
                 </ul>

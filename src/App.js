@@ -4,6 +4,7 @@ import Menu from "./components/Menu"
 import About from "./pages/About"
 import Home from "./pages/Home"
 import Projects from "./pages/Projects"
+import Onboarding from "./pages/Onboarding"
 
 export default function App() {
 
@@ -16,6 +17,9 @@ export default function App() {
                 </Route>
                 <Route path="/projects">
                     <Projects />
+                </Route>
+                <Route path="/onboarding">
+                    <Onboarding />
                 </Route>
                 <Route path="/">
                     <Home />
