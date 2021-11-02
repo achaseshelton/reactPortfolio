@@ -8,14 +8,22 @@ import Week4 from '../components/Week4'
 
 export default function Onboarding() {
     return (
-        <Container className="d-flex justify-content-center">
-            <Row className="text-center text-primary display-3">
+        <Container>
+            <Row className="d-flex justify-content-center text-primary display-3 fw-bolder">
                 Onboarding Journey
             </Row>
-            <Week1 />
-            <Week2 />
-            <Week3 />
-            <Week4 />
+            <Row  className="d-flex justify-content-center">
+                <Week1 />
+            </Row>
+            <Row  className="d-flex justify-content-center">
+                <Week2 />
+            </Row>
+            <Row  className="d-flex justify-content-center">
+                <Week3 />
+            </Row>
+            <Row  className="d-flex justify-content-center">
+                <Week4 />
+            </Row>
         </Container>
     )
 }

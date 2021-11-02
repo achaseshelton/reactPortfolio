@@ -19,7 +19,7 @@ export default function Menu() {
                             <Nav.Link as={Link} to="/about" className="nav-link text-success fw-bold">About Me!</Nav.Link>
                         </li>
                         <li>
-                            <NavDropdown title="Blog" id="basic-nav-dropdown text-success fw-bolder">
+                            <NavDropdown title="Blog" className="text-success fw-bolder" id="basic-nav-dropdown">
                                 <NavDropdown.Item as={Link} to="/onboarding" className="nav-link text-success fw-bold">Onboarding</NavDropdown.Item>
                                 <NavDropdown.Item as={Link} to="/frontend" className="nav-link text-success fw-bold">Front End</NavDropdown.Item>
                                 <NavDropdown.Item as={Link} to="/backend" className="nav-link text-success fw-bold">Back End</NavDropdown.Item>

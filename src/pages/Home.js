@@ -4,15 +4,15 @@ import { Row, Col } from "react-bootstrap"
 export default function Home() {
     return (
         <>
-            <Row classname="m-3">
-                <Col className="text-center text-primary display-2 fw-bolder col-12">
+            <Row className="m-3 css-typing">
+                <Col className="line-1 anim-typewriter text-center text-primary display-2 fw-bolder col-12 m-2">
                     Chase Shelton
             </Col>
-                <Col className="text-center text-success h1 col-12">
+                <Col className="text-center text-success h1 col-12 m-2">
                     Full Stack Web Developer
             </Col>
                 <Col className="col-12">
-                     <div className="text-center text-primary h3 fw-bold">
+                    <div className="text-center text-primary h3 fw-bold m-2">
                         See what I've been <a href="https://github.com/achaseshelton" target="_blank">building</a>!
                     </div>
                 </Col>

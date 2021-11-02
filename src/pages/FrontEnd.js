@@ -9,16 +9,28 @@ import Week10 from "../components/Week10"
 
 export default function FrontEnd() {
     return (
-        <Container className="d-flex justify-content-center">
-            <Row className="text-center text-primary display-3">
+        <Container>
+            <Row className="d-flex justify-content-center text-primary display-3 fw-bolder">
                 Front End
             </Row>
-            <Week5 />
-            <Week6 />
-            <Week7 />
-            <Week8 />
-            <Week9 />
-            <Week10 />
+            <Row className="d-flex justify-content-center">
+                <Week5 />
+            </Row>
+            <Row className="d-flex justify-content-center">
+                <Week6 />
+            </Row>
+            <Row className="d-flex justify-content-center">
+                <Week7 />
+            </Row>
+            <Row className="d-flex justify-content-center">
+                <Week8 />
+            </Row>
+            <Row className="d-flex justify-content-center">
+                <Week9 />
+            </Row>
+            <Row className="d-flex justify-content-center">
+                <Week10 />
+            </Row>
         </Container>
 
     )

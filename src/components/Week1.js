@@ -1,10 +1,15 @@
 import React from 'react'
-import { Container } from 'react-bootstrap'
+import { Row, Container } from 'react-bootstrap'
 
 export default function Week1() {
     return (
         <Container className="border border-primary border-2 text-primary fw-bold m-2">
+            <Row>
             <h1 className="text-center text-primary">Week 1</h1>
+            </Row>
+            <Row className="text-center text-primary">
+                The Beginning
+            </Row>
             <p>This first week of bootcamp has been quite the experience. It started with meeting my fellow bootcampers and instructors to begin the process of learning
                  about coding. My first week has gone well.</p>
             <p>There were definitely some things that I didn't expect, like using the terminal to start and submit code to a repository. I think going in it was hard to know exactly

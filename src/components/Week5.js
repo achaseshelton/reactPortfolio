@@ -1,11 +1,15 @@
 import React from 'react'
-import { Container } from 'react-bootstrap'
+import { Row, Container } from 'react-bootstrap'
 
 export default function Week5() {
     return (
         <Container className="border border-primary border-2 text-primary fw-bold m-2">
-            <h1 className="text-center text-primary">Week 5</h1>
-            <h3 className="text-center text-primary">State and Objects</h3>
+            <Row>
+                <h1 className="text-center text-primary">Week 5</h1>
+            </Row>
+            <Row>
+                <h3 className="text-center text-primary">State and Objects</h3>
+            </Row>
             <p>Week 5 marked the beginning of our in person journey. Finally being able to get togehter in one place with all of our class mates and instructors
             was outstanding. Having all the resources avilable just a few steps away instead of the other side of a keyboard proved to be invaluable. Which turned
             out to be great because there was a lot of content to cover including objects and state. We also started the design process and working on making our blogs
