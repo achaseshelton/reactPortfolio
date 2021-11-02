@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap'
 
 export default function Week2() {
     return (
-        <Container className="border border-primary m-2 text-primary">
+        <Container className="border border-primary border-2 m-2 fw-bold text-primary">
             <h1 className="text-center text-primary">Week 2</h1>
             <h3 className="text-center text-primary">Fast and Furious</h3>
             <p>After a week of learning the basics using github, codeanywhere, CLI's, and markdown, week 2 of Awesome bootcamp really turned up the speed.

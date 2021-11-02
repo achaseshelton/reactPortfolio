@@ -5,6 +5,7 @@ import About from "./pages/About"
 import Home from "./pages/Home"
 import Projects from "./pages/Projects"
 import Onboarding from "./pages/Onboarding"
+import FrontEnd from "./pages/FrontEnd"
 
 export default function App() {
 
@@ -20,6 +21,9 @@ export default function App() {
                 </Route>
                 <Route path="/onboarding">
                     <Onboarding />
+                </Route>
+                <Route path="/frontend">
+                    <FrontEnd />
                 </Route>
                 <Route path="/">
                     <Home />

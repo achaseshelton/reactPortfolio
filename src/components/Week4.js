@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap'
 
 export default function Week4() {
     return (
-        <Container className="border border-primary text-primary m-2">
+        <Container className="border border-primary border-2 fw-bold text-primary m-2">
             <h1 className="text-center">Week 4</h1>
             <h3 className="text-center">The Finale</h3>
             <p>Our time with onboarding has come to a close, with another week packed full of content. It was another fast paced week with plenty of reading and projects.

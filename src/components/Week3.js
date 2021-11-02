@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap'
 
 export default function Week3() {
     return (
-        <Container className="border border-primary text-primary m-2">
+        <Container className="border border-primary border-2 fw-bold text-primary m-2">
             <h1 className="text-center">Week 3</h1>
             <h3 className="text-center">Javascript</h3>
             <p>Week 2 was a good preview of things to come in week 3. Last week we really amped up our speed and this week was no exception. We started learning Javascript
