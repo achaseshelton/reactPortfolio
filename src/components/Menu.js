@@ -28,7 +28,7 @@ export default function Menu() {
                     </ul>
                 </div>
             </div>
-            <div className="container">
+            <div className="container d-flext float-end">
                 <ul className="list-group list-group-horizontal d-flex float-end">
                     <li className="list-group-item text-success bg-dark fw-bold">
                         <a href="https://www.facebook.com/chase.shelton.963" target="_blank" className="text-success">

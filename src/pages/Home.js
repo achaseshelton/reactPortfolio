@@ -4,8 +4,8 @@ import { Row, Col } from "react-bootstrap"
 export default function Home() {
     return (
         <>
-            <Row className="m-3 css-typing">
-                <Col className="line-1 anim-typewriter text-center text-primary display-2 fw-bolder col-12 m-2">
+            <Row className="m-3 d-flex align-items-center">
+                <Col className="text-center text-primary display-2 fw-bolder col-12 m-2">
                     Chase Shelton
             </Col>
                 <Col className="text-center text-success h1 col-12 m-2">
