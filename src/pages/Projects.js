@@ -7,14 +7,14 @@ export default function Projects() {
             <Row className="row row-cols-2 m-3">
                 <Col>
                     <Card className="mb-2">
-                        <Card.Img variant="top" src="./img/tictactoe.png" className="cardimg" />
+                        <Card.Img variant="top" src="./img/weatherapp.png" className="cardimg" />
                         <Card.Body className="border border-primary">
-                            <Card.Title className="text-primary fw-bold text-center">Tic-Tac-Toe</Card.Title>
+                            <Card.Title className="text-primary fw-bold text-center">Weather App</Card.Title>
                             <Card.Text className="text-primary text-center">
-                                Classic Tic-Tac-Toe game using OOP and MVC. Styled with bootstrap.
+                                Weather App, made using HTML, CSS, Javascript and an API call
                             </Card.Text>
-                            <Button href="https://achaseshelton.github.io/ticTacToe/" className="m-2 float-start" variant="success">Project</Button>
-                            <Button href="https://github.com/achaseshelton/ticTacToe" className="m-2 float-end" variant="success">Repository</Button>
+                            <Button href="https://achaseshelton.github.io/weatherApp" target="_blank" className="m-2 float-start" variant="success">Project</Button>
+                            <Button href="https://github.com/achaseshelton/weatherApp" target="_blank" className="m-2 float-end" variant="success">Repository</Button>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -26,8 +26,8 @@ export default function Projects() {
                             <Card.Text className="text-primary text-center">
                                 Our first react project. Made using a given API call. Styled with bootstrap
                             </Card.Text>
-                            <Button href="https://react-restaurant-be881.web.app/" className="m-2 float-start" variant="success">Project</Button>
-                            <Button href="https://github.com/achaseshelton/reactRestaurant" className="m-2 float-end" variant="success">Repository</Button>
+                            <Button href="https://react-restaurant-be881.web.app/" target="_blank" className="m-2 float-start" variant="success">Project</Button>
+                            <Button href="https://github.com/achaseshelton/reactRestaurant" target="_blank" className="m-2 float-end" variant="success">Repository</Button>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -35,25 +35,25 @@ export default function Projects() {
                     <Card className="mb-2">
                         <Card.Img variant="top" src="./img/todo.png" className="cardimg" />
                         <Card.Body className="border border-primary">
-                            <Card.Title className="text-primary fw-bold text-center">To-Do List</Card.Title>
+                            <Card.Title className="text-primary fw-bold text-center">Ted Lass Contsable</Card.Title>
                             <Card.Text className="text-primary text-center">
-                                A to-do list page made using react and local storage. Styled with bootstrap.
+                                A fake campaign site made using HTML, CSS, and Javascript.
                             </Card.Text>
-                            <Button href="https://react-todolist-2c0e5.web.app/" className="m-2 float-start" variant="success">Project</Button>
-                            <Button href="https://github.com/achaseshelton/reactToDoList" className="m-2 float-end" variant="success">Repository</Button>
+                            <Button href="https://achaseshelton.github.io/tedLassoConstable/" target="_blank" className="m-2 float-start" variant="success">Project</Button>
+                            <Button href="https://github.com/achaseshelton/tedLassoConstable" target="_blank" className="m-2 float-end" variant="success">Repository</Button>
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col>
                     <Card className="mb-2">
-                        <Card.Img variant="top" src="./img/mindreader.png" className="cardimg" />
+                        <Card.Img variant="top" src="./img/catsteves.png" className="cardimg" />
                         <Card.Body className="border border-primary">
-                            <Card.Title className="text-primary fw-bold text-center">Mind Reader</Card.Title>
+                            <Card.Title className="text-primary fw-bold text-center">Fishing Hooks Website</Card.Title>
                             <Card.Text className="text-primary text-center">
-                                Mind Reader game. A project with a focus on state. Styled using Bootstrap
+                                Built a website, using React and API's with fellow students.
                             </Card.Text>
-                            <Button href="https://achaseshelton.github.io/mindReader/" className="m-2 float-start" variant="success">Project</Button>
-                            <Button href="https://github.com/achaseshelton/mindReader" className="m-2 float-end" variant="success">Repository</Button>
+                            <Button href="https://cat-steves.web.app/" target="_blank" className="m-2 float-start" variant="success">Project</Button>
+                            <Button href="https://github.com/amills25/FishingGroup" target="_blank" className="m-2 float-end" variant="success">Repository</Button>
                         </Card.Body>
                     </Card>
                 </Col>

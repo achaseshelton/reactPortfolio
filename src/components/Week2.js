@@ -3,7 +3,7 @@ import { Row, Container } from 'react-bootstrap'
 
 export default function Week2() {
     return (
-        <Container className="border border-primary border-2 m-2 fw-bold text-primary">
+        <Container className="border border-primary border-2 m-2 fw-bold text-primary bg-light">
             <Row>
                 <h1 className="text-center text-primary">Week 2</h1>
             </Row>

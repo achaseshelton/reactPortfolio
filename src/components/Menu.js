@@ -28,21 +28,10 @@ export default function Menu() {
                     </ul>
                 </div>
             </div>
-            <div className="container">
-                <ul className="list-group list-group-horizontal d-flex float-end">
+                <ul className="list-group list-group-horizontal d-flex me-auto">
                     <li className="list-group-item text-success bg-dark fw-bold">
-                        <a href="https://www.facebook.com/chase.shelton.963" target="_blank" className="text-success">
-                            <i class="bi bi-facebook"></i>
-                        </a>
-                    </li>
-                    <li className="list-group-item text-success bg-dark fw-bold">
-                        <a href="https://www.linkedin.com/in/austen-shelton-2a7371224/" target="_blank" className="text-success">
+                        <a href="https://www.linkedin.com/in/chase-shelton/" target="_blank" className="text-success">
                             <i class="bi bi-linkedin"></i>
-                        </a>
-                    </li>
-                    <li className="list-group-item text-success bg-dark fw-bold">
-                        <a href="https://twitter.com/acshelton412" target="_blank" className="text-success">
-                            <i class="bi bi-twitter"></i>
                         </a>
                     </li>
                     <li className="list-group-item text-success bg-dark fw-bold">
@@ -51,7 +40,6 @@ export default function Menu() {
                         </a>
                     </li>
                 </ul>
-            </div>
         </Nav>
     )
 }

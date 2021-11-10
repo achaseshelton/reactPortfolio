@@ -1,5 +1,6 @@
 import React from 'react'
 import { Row, Col } from "react-bootstrap"
+import ProjectsCarousel from '../components/ProjectCarousel'
 
 export default function Home() {
     return (
@@ -11,9 +12,12 @@ export default function Home() {
                 <Col className="text-center text-success h1 col-12 m-2">
                     Full Stack Web Developer
             </Col>
+            </Row>
+            <ProjectsCarousel />
+            <Row>
                 <Col className="col-12">
-                    <div className="text-center text-primary h3 fw-bold m-2">
-                        See what I've been <a href="https://github.com/achaseshelton" target="_blank">building</a>!
+                    <div className="text-center text-primary h3 fw-bold m-3">
+                        See what else I've been <a href="https://github.com/achaseshelton" target="_blank">building</a>!
                     </div>
                 </Col>
             </Row>
