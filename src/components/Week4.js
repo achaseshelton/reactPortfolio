@@ -3,25 +3,25 @@ import { Row, Container } from 'react-bootstrap'
 
 export default function Week4() {
     return (
-        <Container className="border border-primary border-2 fw-bold text-primary m-2 bg-light">
+        <Container className="border border-primary border-2 m-2 bg-white">
             <Row>
-                <h1 className="text-center">Week 4</h1>
+                <h1 className="text-center text-success fw-bold">Week 4</h1>
             </Row>
             <Row>
-                <h3 className="text-center">The Finale</h3>
+                <h3 className="text-center text-success fw-bold">The Finale</h3>
             </Row>
-            <p>Our time with onboarding has come to a close, with another week packed full of content. It was another fast paced week with plenty of reading and projects.
+            <p className="text-primary">Our time with onboarding has come to a close, with another week packed full of content. It was another fast paced week with plenty of reading and projects.
             The things we covered this week included:
-                <ul>
+                <ul className="text-primary">
                     <li>Pseudocode</li>
                     <li>Pair Programming</li>
                     <li>Objects</li>
                     <li>Katas</li>
                 </ul>
             </p>
-            <p>This has been a great process over the last 4 weeks. I understand much more about coding and the development process now than I would have thought possible
+            <p className="text-primary">This has been a great process over the last 4 weeks. I understand much more about coding and the development process now than I would have thought possible
             in 4 weeks. I am really looking forward to working with my other bootcampers and instructors to continue learning and increasing my scope of knowledge.</p>
-            <p>During the last 4 weeks I have found the most helpful thing to be our help channel in Slack. The ability to ask for help from not only my other bootcamp
+            <p className="text-primary">During the last 4 weeks I have found the most helpful thing to be our help channel in Slack. The ability to ask for help from not only my other bootcamp
             members but also my instructors has been a huge boon for me in completing the onboarding processs. Having a fresh set of eyes on the problem you are working on can
             make a big difference. It was also easy reading through some of the other posts and finding some solutions that you might need for the future. The help slack channel
             is a great resource.</p>
