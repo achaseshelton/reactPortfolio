@@ -7,8 +7,8 @@ export default function Week1() {
             <Row>
             <h1 className="text-center text-success fw-bold">Week 1</h1>
             </Row>
-            <Row className="text-center text-success fw-bold">
-                The Beginning
+            <Row>
+                <h3 className="text-center text-success fw-bold">The Beginning</h3>
             </Row>
             <p className="text-primary">This first week of bootcamp has been quite the experience. It started with meeting my fellow bootcampers and instructors to begin the process of learning
                  about coding. My first week has gone well.</p>
