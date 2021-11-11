@@ -16,7 +16,7 @@ export default function About() {
                </p>
             </div>
             <div className="d-flex justify-content-center">
-            <img src="./img/disney.jpg" className="image-fluid"/>
+            <img src="./img/disney.jpg" className="image-fluid h-75 w-75"/>
             </div>
         </div>
     )
