@@ -10,7 +10,7 @@ export default function ProjectCarousel() {
                 <Carousel.Item interval={3000} className="carouselitem" pause="hover">
                     <Card.Img variant="top" src="./img/tictactoe.png" className="carouselimg" />
                     <Card.Body className="border border-primary bg-white">
-                        <Card.Title className="text-primary fw-bold text-center">Tic-Tac-Toe</Card.Title>
+                        <Card.Title className="text-success fw-bold text-center">Tic-Tac-Toe</Card.Title>
                         <Card.Text className="text-primary text-center">
                             Classic Tic-Tac-Toe game using OOP and MVC. Styled with bootstrap.
                             </Card.Text>
@@ -21,7 +21,7 @@ export default function ProjectCarousel() {
                 <Carousel.Item interval={3000} className="carouselitem" pause="hover">
                     <Card.Img variant="top" src="./img/todo.png" className="carouselimg" />
                     <Card.Body className="border border-primary bg-white">
-                        <Card.Title className="text-primary fw-bold text-center">To-Do List</Card.Title>
+                        <Card.Title className="text-success fw-bold text-center">To-Do List</Card.Title>
                         <Card.Text className="text-primary text-center">
                             A to-do list page made using react and local storage. Styled with bootstrap.
                             </Card.Text>
@@ -32,7 +32,7 @@ export default function ProjectCarousel() {
                 <Carousel.Item interval={3000} className="carouselitem" pause="hover">
                     <Card.Img variant="top" src="./img/mindreader.png" className="carouselimg" />
                     <Card.Body className="border border-primary bg-white">
-                        <Card.Title className="text-primary fw-bold text-center">Mind Reader</Card.Title>
+                        <Card.Title className="text-success fw-bold text-center">Mind Reader</Card.Title>
                         <Card.Text className="text-primary text-center">
                             Mind Reader game. A project with a focus on state. Styled using Bootstrap
                             </Card.Text>
